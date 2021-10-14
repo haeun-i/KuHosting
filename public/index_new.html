@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      p {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>My First Heading</h1>
+    <p id="mfp">My first paragraph.</p>
+    <a href="javascript:changeByJS()">Button</a>
+
+    <script>
+      function changeByJS() {
+        let x = document.getElementById("mfp");
+        x.innerText = "큐시즘 화이팅";
+        x.style.color = "blue";
+      }
+    </script>
+  </body>
+</html>
